@@ -35,6 +35,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		26A0A4C325683BB900206A77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD7A7C431E199F9000579A8E /* ColorCube.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD7A7C5B1E19A04A00579A8E;
+			remoteInfo = "ColorCube-macOS";
+		};
 		7F98C65D192504D3009C124F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7F98C62F192504D3009C124F /* Project object */;
@@ -73,6 +80,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		26A0A4D125683E4E00206A77 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		7F46E8CE1925EA8D003C595F /* CCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCViewController.m; path = Demo/CCViewController.m; sourceTree = "<group>"; };
 		7F46E8CF1925EA8D003C595F /* CCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCViewController.h; path = Demo/CCViewController.h; sourceTree = "<group>"; };
 		7F46E8D01925EA8D003C595F /* CCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCTableViewCell.m; path = Demo/CCTableViewCell.m; sourceTree = "<group>"; };
@@ -91,18 +99,18 @@
 		7F46E8E11925F21C003C595F /* glotze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glotze.jpg; sourceTree = "<group>"; };
 		7F46E8E21925F21C003C595F /* club.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = club.jpg; sourceTree = "<group>"; };
 		7F46E8E31925F21C003C595F /* berlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berlin.jpg; sourceTree = "<group>"; };
-		7F98C637192504D3009C124F /* ColorCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F98C637192504D3009C124F /* ColorCubeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCubeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F98C63A192504D3009C124F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F98C63C192504D3009C124F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7F98C63E192504D3009C124F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7F98C642192504D3009C124F /* ColorCube-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorCube-Info.plist"; sourceTree = "<group>"; };
+		7F98C642192504D3009C124F /* ColorCubeApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorCubeApp-Info.plist"; sourceTree = "<group>"; };
 		7F98C644192504D3009C124F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F98C646192504D3009C124F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7F98C648192504D3009C124F /* ColorCube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorCube-Prefix.pch"; sourceTree = "<group>"; };
+		7F98C648192504D3009C124F /* ColorCubeApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorCubeApp-Prefix.pch"; sourceTree = "<group>"; };
 		7F98C652192504D3009C124F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7F98C658192504D3009C124F /* ColorCubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorCubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F98C658192504D3009C124F /* ColorCubeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorCubeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F98C659192504D3009C124F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		7F98C661192504D3009C124F /* ColorCubeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorCubeTests-Info.plist"; sourceTree = "<group>"; };
+		7F98C661192504D3009C124F /* ColorCubeAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorCubeAppTests-Info.plist"; sourceTree = "<group>"; };
 		7F98C663192504D3009C124F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F98C665192504D3009C124F /* ColorCubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorCubeTests.m; sourceTree = "<group>"; };
 		DD7A7C431E199F9000579A8E /* ColorCube.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ColorCube.xcodeproj; path = ../Framework/ColorCube/ColorCube.xcodeproj; sourceTree = "<group>"; };
@@ -164,6 +172,7 @@
 		7F98C62E192504D3009C124F = {
 			isa = PBXGroup;
 			children = (
+				26A0A4D125683E4E00206A77 /* Launch Screen.storyboard */,
 				DD7A7C431E199F9000579A8E /* ColorCube.xcodeproj */,
 				7F98C640192504D3009C124F /* ColorCube */,
 				7F98C65F192504D3009C124F /* ColorCubeTests */,
@@ -175,8 +184,8 @@
 		7F98C638192504D3009C124F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F98C637192504D3009C124F /* ColorCube.app */,
-				7F98C658192504D3009C124F /* ColorCubeTests.xctest */,
+				7F98C637192504D3009C124F /* ColorCubeApp.app */,
+				7F98C658192504D3009C124F /* ColorCubeAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,10 +217,10 @@
 			children = (
 				7F98C652192504D3009C124F /* Images.xcassets */,
 				7F186AA51925134100E4F320 /* Images */,
-				7F98C642192504D3009C124F /* ColorCube-Info.plist */,
+				7F98C642192504D3009C124F /* ColorCubeApp-Info.plist */,
 				7F98C643192504D3009C124F /* InfoPlist.strings */,
 				7F98C646192504D3009C124F /* main.m */,
-				7F98C648192504D3009C124F /* ColorCube-Prefix.pch */,
+				7F98C648192504D3009C124F /* ColorCubeApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -228,7 +237,7 @@
 		7F98C660192504D3009C124F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7F98C661192504D3009C124F /* ColorCubeTests-Info.plist */,
+				7F98C661192504D3009C124F /* ColorCubeAppTests-Info.plist */,
 				7F98C662192504D3009C124F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -238,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				DD7A7C481E199F9000579A8E /* ColorCube.framework */,
+				26A0A4C425683BB900206A77 /* ColorCube.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -245,9 +255,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F98C636192504D3009C124F /* ColorCube */ = {
+		7F98C636192504D3009C124F /* ColorCubeApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F98C669192504D3009C124F /* Build configuration list for PBXNativeTarget "ColorCube" */;
+			buildConfigurationList = 7F98C669192504D3009C124F /* Build configuration list for PBXNativeTarget "ColorCubeApp" */;
 			buildPhases = (
 				7F98C633192504D3009C124F /* Sources */,
 				7F98C634192504D3009C124F /* Frameworks */,
@@ -259,14 +269,14 @@
 			dependencies = (
 				DD7A7C4C1E199F9A00579A8E /* PBXTargetDependency */,
 			);
-			name = ColorCube;
+			name = ColorCubeApp;
 			productName = ColorCube;
-			productReference = 7F98C637192504D3009C124F /* ColorCube.app */;
+			productReference = 7F98C637192504D3009C124F /* ColorCubeApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7F98C657192504D3009C124F /* ColorCubeTests */ = {
+		7F98C657192504D3009C124F /* ColorCubeAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F98C66C192504D3009C124F /* Build configuration list for PBXNativeTarget "ColorCubeTests" */;
+			buildConfigurationList = 7F98C66C192504D3009C124F /* Build configuration list for PBXNativeTarget "ColorCubeAppTests" */;
 			buildPhases = (
 				7F98C654192504D3009C124F /* Sources */,
 				7F98C655192504D3009C124F /* Frameworks */,
@@ -277,9 +287,9 @@
 			dependencies = (
 				7F98C65E192504D3009C124F /* PBXTargetDependency */,
 			);
-			name = ColorCubeTests;
+			name = ColorCubeAppTests;
 			productName = ColorCubeTests;
-			productReference = 7F98C658192504D3009C124F /* ColorCubeTests.xctest */;
+			productReference = 7F98C658192504D3009C124F /* ColorCubeAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -289,20 +299,22 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CC;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "Ole Krause-Sparmann";
 				TargetAttributes = {
 					7F98C636192504D3009C124F = {
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 8PRU62NKG9;
+						ProvisioningStyle = Automatic;
 					};
 					7F98C657192504D3009C124F = {
+						DevelopmentTeam = 8PRU62NKG9;
 						TestTargetID = 7F98C636192504D3009C124F;
 					};
 				};
 			};
-			buildConfigurationList = 7F98C632192504D3009C124F /* Build configuration list for PBXProject "ColorCube" */;
+			buildConfigurationList = 7F98C632192504D3009C124F /* Build configuration list for PBXProject "ColorCubeApp" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -319,13 +331,20 @@
 			);
 			projectRoot = "";
 			targets = (
-				7F98C636192504D3009C124F /* ColorCube */,
-				7F98C657192504D3009C124F /* ColorCubeTests */,
+				7F98C636192504D3009C124F /* ColorCubeApp */,
+				7F98C657192504D3009C124F /* ColorCubeAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		26A0A4C425683BB900206A77 /* ColorCube.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ColorCube.framework;
+			remoteRef = 26A0A4C325683BB900206A77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		DD7A7C481E199F9000579A8E /* ColorCube.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -391,7 +410,7 @@
 /* Begin PBXTargetDependency section */
 		7F98C65E192504D3009C124F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F98C636192504D3009C124F /* ColorCube */;
+			target = 7F98C636192504D3009C124F /* ColorCubeApp */;
 			targetProxy = 7F98C65D192504D3009C124F /* PBXContainerItemProxy */;
 		};
 		DD7A7C4C1E199F9A00579A8E /* PBXTargetDependency */ = {
@@ -425,18 +444,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -459,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -469,18 +498,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -496,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -506,15 +545,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = "";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PRU62NKG9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ColorCube/ColorCube-Prefix.pch";
-				INFOPLIST_FILE = "ColorCube/ColorCube-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREFIX_HEADER = "ColorCube/ColorCubeApp-Prefix.pch";
+				INFOPLIST_FILE = "ColorCube/ColorCubeApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelogik.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = ColorCube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -523,15 +565,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = "";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PRU62NKG9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ColorCube/ColorCube-Prefix.pch";
-				INFOPLIST_FILE = "ColorCube/ColorCube-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREFIX_HEADER = "ColorCube/ColorCubeApp-Prefix.pch";
+				INFOPLIST_FILE = "ColorCube/ColorCubeApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelogik.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = ColorCube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -540,6 +585,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorCube.app/ColorCube";
+				DEVELOPMENT_TEAM = 8PRU62NKG9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -551,7 +597,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ColorCubeTests/ColorCubeTests-Info.plist";
+				INFOPLIST_FILE = "ColorCubeTests/ColorCubeAppTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelogik.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -563,6 +609,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorCube.app/ColorCube";
+				DEVELOPMENT_TEAM = 8PRU62NKG9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -570,7 +617,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorCube/ColorCube-Prefix.pch";
-				INFOPLIST_FILE = "ColorCubeTests/ColorCubeTests-Info.plist";
+				INFOPLIST_FILE = "ColorCubeTests/ColorCubeAppTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelogik.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -581,7 +628,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F98C632192504D3009C124F /* Build configuration list for PBXProject "ColorCube" */ = {
+		7F98C632192504D3009C124F /* Build configuration list for PBXProject "ColorCubeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F98C667192504D3009C124F /* Debug */,
@@ -590,7 +637,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F98C669192504D3009C124F /* Build configuration list for PBXNativeTarget "ColorCube" */ = {
+		7F98C669192504D3009C124F /* Build configuration list for PBXNativeTarget "ColorCubeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F98C66A192504D3009C124F /* Debug */,
@@ -599,7 +646,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F98C66C192504D3009C124F /* Build configuration list for PBXNativeTarget "ColorCubeTests" */ = {
+		7F98C66C192504D3009C124F /* Build configuration list for PBXNativeTarget "ColorCubeAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F98C66D192504D3009C124F /* Debug */,

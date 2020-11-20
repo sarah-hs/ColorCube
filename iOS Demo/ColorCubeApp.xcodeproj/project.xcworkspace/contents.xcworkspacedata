@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ColorCube.xcodeproj">
+      location = "self:/Users/sarah/Downloads/ColorCube/iOS Demo/ColorCubeApp.xcodeproj">
    </FileRef>
 </Workspace>

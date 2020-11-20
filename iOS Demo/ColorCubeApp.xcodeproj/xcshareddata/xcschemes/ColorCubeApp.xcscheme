@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD7A7C2E1E199F2700579A8E"
-               BuildableName = "ColorCube.framework"
-               BlueprintName = "ColorCube"
-               ReferencedContainer = "container:ColorCube.xcodeproj">
+               BlueprintIdentifier = "7F98C636192504D3009C124F"
+               BuildableName = "ColorCubeApp.app"
+               BlueprintName = "ColorCubeApp"
+               ReferencedContainer = "container:ColorCubeApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,15 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD7A7C2E1E199F2700579A8E"
-            BuildableName = "ColorCube.framework"
-            BlueprintName = "ColorCube"
-            ReferencedContainer = "container:ColorCube.xcodeproj">
+            BlueprintIdentifier = "7F98C636192504D3009C124F"
+            BuildableName = "ColorCubeApp.app"
+            BlueprintName = "ColorCubeApp"
+            ReferencedContainer = "container:ColorCubeApp.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -56,15 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD7A7C2E1E199F2700579A8E"
-            BuildableName = "ColorCube.framework"
-            BlueprintName = "ColorCube"
-            ReferencedContainer = "container:ColorCube.xcodeproj">
+            BlueprintIdentifier = "7F98C636192504D3009C124F"
+            BuildableName = "ColorCubeApp.app"
+            BlueprintName = "ColorCubeApp"
+            ReferencedContainer = "container:ColorCubeApp.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

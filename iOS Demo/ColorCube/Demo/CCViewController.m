@@ -149,19 +149,19 @@
         UIColor *rgbWhite = [UIColor colorWithRed:1 green:1 blue:1 alpha:1];
         UIColor *rgbBlue  = [UIColor colorWithRed:0.3 green:0.3 blue:1 alpha:1];
         
-        for (UIImage *image in _images) {
+        for (UIImage *image in self->_images) {
             NSArray *extractedColors = nil;
             
             // Extract colors (try to get four distinct)
             switch (mode) {
                 case 0:
-                    extractedColors = [_colorCube extractBrightColorsFromImage:image avoidColor:nil count:4];
+                    extractedColors = [self->_colorCube extractBrightColorsFromImage:image avoidColor:nil count:4];
                     break;
                 case 1:
-                    extractedColors = [_colorCube extractBrightColorsFromImage:image avoidColor:rgbWhite count:4];
+                    extractedColors = [self->_colorCube extractBrightColorsFromImage:image avoidColor:rgbWhite count:4];
                     break;
                 case 2:
-                    extractedColors = [_colorCube extractBrightColorsFromImage:image avoidColor:rgbBlue count:4];
+                    extractedColors = [self->_colorCube extractBrightColorsFromImage:image avoidColor:rgbBlue count:4];
                     break;
             }
             
